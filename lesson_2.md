@@ -149,14 +149,18 @@ class Program
 {
     static void Main()
     {
-        string doubleNumber = "894376.243643";
+        string doubleNumber = "894376,243643";
         int number = (int)double.Parse(doubleNumber); // Преобразование строки в double и приведение к int
         //int number = Convert.ToInt32(doubleNumber);
         Console.WriteLine(number + 1);
     }
 }
 ```
-
+```csharp
+#Инвариант культуры если передается точка в качестве разделителя:
+string doubleNumber = "894376.243643";
+int number = (int)double.Parse(doubleNumber,CultureInfo.InvariantCulture);
+```
 ### Задача 4: Половинка числа
 
 **Программа**:
