@@ -151,6 +151,7 @@ class Program
     {
         string doubleNumber = "894376.243643";
         int number = (int)double.Parse(doubleNumber); // Преобразование строки в double и приведение к int
+        //int number = Convert.ToInt32(doubleNumber);
         Console.WriteLine(number + 1);
     }
 }
