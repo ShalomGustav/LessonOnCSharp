@@ -86,11 +86,9 @@ Console.WriteLine($"Успех: {success}, Результат: {result}"); // У
 
 ### Пример
 ```csharp
-string text = "100";
-if (int.TryParse(text, out var number))
-{
-    Console.WriteLine($"Число: {number}");
-}
+string text = "123";
+int.TryParse(text, out var number);
+Console.WriteLine(number);
 ```
 
 
