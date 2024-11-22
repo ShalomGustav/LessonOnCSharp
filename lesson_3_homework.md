@@ -38,9 +38,9 @@ Console.WriteLine(number); // Результат: 0
 Программа преобразует строку `"2.718"` в число типа `double`.
 
 ```csharp
-string text = "2.718";
+string text = "2,718";
 double.TryParse(text, out double number);
-Console.WriteLine(number); // Результат: 2.718
+Console.WriteLine(number); // Результат: 2,718
 ```
 
 
