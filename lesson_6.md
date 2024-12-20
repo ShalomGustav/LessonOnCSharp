@@ -330,9 +330,7 @@ class Program
 ```csharp
 using System;
 
-namespace ClassWork
-{
-    public class Program
+public class Program
     {
         static void Main(string[] args)
         {
@@ -365,5 +363,4 @@ namespace ClassWork
             Console.ReadKey();
         }
     }
-}
 ```
