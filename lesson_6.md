@@ -335,19 +335,14 @@ public class Program
         static void Main(string[] args)
         {
             char.TryParse(Console.ReadLine(), out var charSymbol);
-
             int numASCI = charSymbol;
             bool number = numASCI >= 48 && numASCI <= 57;
-
             switch (number)
             {
                 case true:
-
                     Console.WriteLine("Numeric");
                     break;
-
                 case false:
-
                     bool is_char = (numASCI >= 65 && numASCI <= 90) || (numASCI >= 97 && numASCI <= 122);
                     switch (is_char)
                     {
